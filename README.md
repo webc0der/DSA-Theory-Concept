@@ -46,7 +46,32 @@ EX- stack can be implmented based on array or linked list and same goes for Queu
     -> recursion vs iteration:
     -> time: recur take more time becaouse it needs to access the stack memory to push and pop the recorsive method calls, hence it more time than iteration
     -> space efficiency: recur takes more space than iteration, as it store multiple method calls in stack memory
-    -> 
 
+- Algorithm Run Time Analysis
+    -> it is a procedure to measure the performance of the given alorithm in run time
+    -> Notations:
+    -> Omega notation: this defines the tighter lower bound of  given alogo. this defines the best performance of an algo, that means the alog wont take less than the given time
+    -> Bog-o(O) notation: this defines the tighter upper bound of an algo. this defines the worst case performance of an algo, that means the algo wont take more than the calculated given time.
+    -> theta notation: this defines the average bound of an aglo. this defines the average performance of an algo by consider all possible inputs or large number of inputs.
+    -> types of Big-o notation:
+    -> O(1): order of one: constant time complexity: adding an element at front of LL 
+    -> O(log n): logarithmic time complexity: finding an element in a sorted array
+    -> O(n): linear time complexity: finding an element in unsroted array
+    -> O(n logn): linear lodarithmic time complexity: merge sort
+    -> O(n2): quadratic time comlexity: shortest path b/w two nodes
+    -> O(n3): cubic time complexity: matrix multiply
+    -> O(2n): Exponential time complexity
+
+- Array Data structures
+    -> collection of similar data types
+    -> contigous memory localtion with similar data types
+    -> size of an array cant be modified
+    -> 3d array: arr[depth][row][column]
+    -> 2d and 3d array also get stores in memory in flat manner: 2d example: [0][0],[0][1],[0][2]  3d example:[0][0][0],[0][0][1],[0][0][2]
+    -> 1d array
+    -> declariont: creating a reference variable arr
+    -> instantiating: assinging the size of array, then system allocates a memory location for it
+    -> initalizing: adding values to it then system assing the location of memory to the refernce variable created
+    -> initializing and traversing in 2d has time complexity of O(mn)
 
 
